@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Planner::Application.load_tasks
+PlannerApp::Application.load_tasks
