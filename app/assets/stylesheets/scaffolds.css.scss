@@ -1,4 +1,6 @@
-body {
+html, body {
+  margin: 0;
+  padding: 0;
   background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -6,7 +8,54 @@ body {
   line-height: 18px;
 }
 
-p, ol, ul, td {
+#page-container {
+  background: white;
+  width: auto;
+  margin: auto;
+}
+
+#main-nav {
+  background-color: #a0c5e9;
+  height: 50px;
+}
+
+#header {
+  height: 150px;
+  padding-bottom: 50px;
+}
+
+#filters {
+  float: left;
+  width: 280px;
+}
+
+#content{
+  margin-left: 280px
+}
+
+#footer {
+  clear: both;
+  height: 66px;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+th{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 40px;
+}
+
+p, ol, ul {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -21,17 +70,16 @@ pre {
 a {
   color: #000;
   &:visited {
-    color: #666;
+    color: #000;
   }
   &:hover {
     color: #fff;
-    background-color: #000;
   }
 }
 
 div {
   &.field, &.actions {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 }
 
